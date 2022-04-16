@@ -1,0 +1,60 @@
+/* header */
+@import "../../base.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 1rem;
+
+  position: fixed;
+  top: 0;
+  z-index: 999;
+
+  background-color: $background;
+  color: $primary-white-color;
+
+  height: 56px;
+  width: 100%;
+  
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+
+  .form-control {
+    border: 1px solid #313131;
+    background-color: #121212;
+    color: $primary-white-color;
+
+    &:focus {
+      outline: none;
+      background-color: #121212;
+      color: $primary-white-color;
+    }
+  }
+
+  .input-group-text {
+    border: 1px solid #313131;
+    background-color: #313131;
+    width: 64px;
+    padding-left: 15px;
+  }
+
+  img {
+    border-radius: 50%;
+    width: 32px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 520px) {
+  .header {
+    padding: 1rem;
+
+    form {
+      flex: 1;
+    }
+  }
+}

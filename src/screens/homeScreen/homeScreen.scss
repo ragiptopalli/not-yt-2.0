@@ -1,0 +1,15 @@
+@import "../../base.scss";
+
+.container {
+    @media (min-width: 1400px) {
+        max-width: 100% !important;
+    }
+
+    .infinite-scroll-component__outerdiv {
+        background-color: $background-watch;
+        height: 100vh;
+    }
+}
+
+
+

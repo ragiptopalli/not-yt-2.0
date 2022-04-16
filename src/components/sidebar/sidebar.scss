@@ -1,0 +1,42 @@
+.sidebar {
+   height: 100%;
+   padding-top: 20px;
+   padding-bottom: 40px;
+   flex: 1;
+
+   li {
+      font-weight: 500;
+      line-height: 2rem;
+      font-size: 1.4rem;
+    
+      &:hover{
+          background: #383838;
+      }
+    }
+
+   hr {
+       width: 220px;
+   }
+
+   svg {
+       fill: #fff;
+   }
+
+   .nav-link span {
+       padding: 0 15px;
+       vertical-align: bottom;
+       white-space: nowrap;
+       font-size: 15px;
+   }
+
+   .nav-footer {
+       padding-right: 30px;
+       padding-left: 1rem;
+       .nav-link {
+           padding: 0;
+           padding-right: 5px;
+           font-size: 12px;
+           font-weight: bold;
+       }
+   }
+}
