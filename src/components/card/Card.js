@@ -1,20 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { Col, Row } from "react-bootstrap";
 import { AiFillEye } from "react-icons/ai";
-// import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from "react-router-dom";
 import moment from "moment";
 import numeral from "numeral";
-
-// import { getChannelDetails } from '../../redux/actions/channel.action'
-import "./videoHorizontal.scss";
+import "./card.scss";
 import request from "../../api";
 import { useSelector } from "react-redux";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
-//rename to card
-const VideoHorizontal = ({
+const Card = ({
   video,
   showChannel = true,
   showDescription = true,
@@ -143,4 +139,4 @@ const VideoHorizontal = ({
   );
 };
 
-export default VideoHorizontal;
+export default Card;

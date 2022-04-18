@@ -14,7 +14,7 @@ const Sidebar = () => {
 
   return (
     <div className="sidebar">
-      <ul className="nav nav-pills flex-column mb-auto">
+      <ul id="sidebar" className="nav nav-pills flex-column mb-auto">
         <li className="nav-item">
           <a href="/" className="d-flex align-items-center nav-link text-white">
             <svg
@@ -36,6 +36,7 @@ const Sidebar = () => {
             <span>Home</span>
           </a>
         </li>
+
         <li className="nav-item">
           <a href="/" className="d-flex align-items-center nav-link text-white">
             <svg

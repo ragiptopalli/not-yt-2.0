@@ -5,7 +5,7 @@ import {
   fetchHomeVideos,
 } from "../../redux/actions/videos.action";
 import { SET_ACTIVE_CATEGORY } from "../../redux/types";
-import "./categoriesBar.scss";
+import "./chips.scss";
 
 const keywords = [
   "All",
@@ -27,7 +27,7 @@ const keywords = [
   "Ukraine",
 ];
 
-const CategoriesBar = () => {
+const Chips = () => {
   const [active, setActive] = useState("All");
   const dispatch = useDispatch();
 
@@ -57,4 +57,4 @@ const CategoriesBar = () => {
   );
 };
 
-export default CategoriesBar;
+export default Chips;

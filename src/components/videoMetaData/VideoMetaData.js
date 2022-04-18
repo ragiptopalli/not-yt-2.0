@@ -14,7 +14,6 @@ import { checkSubscriptionStatus } from "../../redux/actions/channel.action";
 import { useNavigate } from "react-router-dom";
 
 const VideoMetaData = ({ video: { snippet, statistics }, videoId }) => {
-  // console.log(snippet);
   const { channelId, channelTitle, description, title, publishedAt } = snippet;
   const { commentCount, dislikeCount, likeCount, viewCount } = statistics;
 

@@ -13,9 +13,8 @@ import {
 } from "../../redux/actions/videos.action";
 import "./homeScreen.scss";
 
-// import SkeletonCard from '../../components/skeleton/SkeletonCard'
 import SkeletonVideo from "../../components/skeleton/SkeletonVideo";
-import CategoriesBar from "../../components/categoriesBar/CategoriesBar";
+import Chips from "../../components/chipFilter/Chips";
 import { SET_ACTIVE_CATEGORY } from "../../redux/types";
 
 const HomeScreen = () => {
@@ -49,7 +48,7 @@ const HomeScreen = () => {
 
   return (
     <Container>
-      <CategoriesBar />
+      <Chips />
       <InfiniteScroll
         dataLength={videos.length}
         next={() => nextPage()}
