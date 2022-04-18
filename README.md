@@ -1,9 +1,12 @@
-<h1 align="center">YouTube Clone using YouTube API, React & Redux 👋</h1>
+<h1 align="center">Welcome to notyt_api 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-0.2.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://twitter.com/ragiptopalli" target="_blank">
+    <img alt="Twitter: ragiptopalli" src="https://img.shields.io/twitter/follow/ragiptopalli.svg?style=social" />
+  </a>
 </p>
 
-> Fully Functional YouTube Clone Responsive Web App using React,Bootstrap & YouTube API v3.You can get popular videos,access categories bar along with pagination, play a video,comment on a video,like a video & many more.
+> Functional YouTube Clone and Responsive using ReactxRedux with Bootstrap & YouTube API v3.
 
 ### ✨ [Demo](https://github.com/ragiptopalli)
 
@@ -29,9 +32,13 @@ npm run test
 
 👤 **Ragip Topalli**
 
--  Github: [@ragiptopalli](https://github.com/ragiptopalli)
--  LinkedIn: [@ragiptopalli](https://www.linkedin.com/in/ragiptopalli/)
+* Twitter: [@ragiptopalli](https://twitter.com/ragiptopalli)
+* Github: [@ragiptopalli](https://github.com/ragiptopalli)
+* LinkedIn: [@ragiptopalli](https://linkedin.com/in/ragiptopalli)
 
----
+## Show your support
 
+Give a ⭐️ if this project helped you!
+
+***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
