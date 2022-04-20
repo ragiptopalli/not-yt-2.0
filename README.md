@@ -5,7 +5,7 @@
 
 > Functional YouTube Clone and Responsive using ReactxRedux with Bootstrap & YouTube API v3.
 
-### ✨ [Demo](https://github.com/ragiptopalli)
+### ✨ [Demo](https://not-yt-really-2.web.app/)
 
 ## Install
 

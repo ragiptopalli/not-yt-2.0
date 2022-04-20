@@ -1,13 +1,13 @@
-import firebase from "firebase/compat/app";
-import "firebase/compat/auth";
+import firebase from "firebase/app";
+import "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBV3SOijqAUDQIckOHc1_nLF0biiX1c7aM",
-  authDomain: "not-yt-really.firebaseapp.com",
-  projectId: "not-yt-really",
-  storageBucket: "not-yt-really.appspot.com",
-  messagingSenderId: "1080162400198",
-  appId: "1:1080162400198:web:306938cf491794627964c7",
+  apiKey: "AIzaSyDp_BbPQg8mU4zjwI-21mIU0hX3Yu-n9g4",
+  authDomain: "not-yt-really-2.firebaseapp.com",
+  projectId: "not-yt-really-2",
+  storageBucket: "not-yt-really-2.appspot.com",
+  messagingSenderId: "601576686672",
+  appId: "1:601576686672:web:0d0259a3044ea060993d55",
 };
 
 firebase.initializeApp(firebaseConfig);
